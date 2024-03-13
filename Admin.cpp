@@ -6,7 +6,7 @@
 Admin::Admin() // oladoc creates admin and predetermined username and password is given
 {
 	string temp = "Admin";
-	string temp1 = "1Bih>2ib";
+	string temp1 = "password";
 
 	strcpy_s(UserName, temp.c_str());
 	strcpy_s(Password, temp1.c_str());
